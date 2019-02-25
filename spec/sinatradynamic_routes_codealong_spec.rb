@@ -1,4 +1,4 @@
-<% 
+<% binding.pry %>
 require 'spec_helper'
 
 describe 'app.rb' do
