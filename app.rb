@@ -23,7 +23,4 @@ class App < Sinatra::Base
     @result
   end
 
-
-  # Code your final two routes here:
-
 end
