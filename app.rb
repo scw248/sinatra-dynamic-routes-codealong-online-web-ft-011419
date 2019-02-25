@@ -20,7 +20,7 @@ class App < Sinatra::Base
   
   get "/multiply/num1/num2" do
     binding.pry
-    @result = params[:num1] *= [:num2]
+    @result = params[num1 * num2]
     @result
   end
 
